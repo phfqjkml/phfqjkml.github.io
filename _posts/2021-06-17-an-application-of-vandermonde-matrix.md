@@ -3,16 +3,16 @@ layout: page
 title: "An application of Vandermonde matrix"
 author: "Felix Chen"
 categories: journal
-tags: [documentation,Linear Algebra]
+tags: [documentation,linear algebra]
 ---
 
-In this article, we shall prove the following theorem:
+In this post, we shall prove the following theorem:
 
 _Let $T$ be a linear operator on a finite-dimensional vector space $V$. If $T$
 possesses $n$ distinct eigenvalues, where $n=dim\,V$, then $V$ itself is a $T-
 \mbox{cyclic}$ subspace._
 
-Before we write down the proof, let's give a introduction to Vandermonde matrices.
+Before we write down the proof, let's give an introduction to Vandermonde matrices.
 A Vandermonde matrix is of the form
 
 $$ V = \begin{pmatrix}
