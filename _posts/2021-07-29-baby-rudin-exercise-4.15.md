@@ -1,14 +1,13 @@
 ---
 layout: page
-title: "Baby rudin exercise 4.15"
+title: "Baby Rudin Exercise 4.15"
 author: "Felix Chen"
 categories: journal
 tags: [documentation,real analysis]
 ---
 
 > Call a mapping of $X$ into $Y$ open if $f(V)$ is an open set in $Y$ whenever
-> $V$ is an open set in $X$.
->
+> $V$ is an open set in $X$. \
 > Prove that every continuous open mapping of $\mathbb{R}^1$ into $\mathbb{R}^1$
 > is monotonic.
 
