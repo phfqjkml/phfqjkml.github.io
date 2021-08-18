@@ -24,7 +24,7 @@ $$\sup_{x_{j-1}\leq x\leq x_j}f(x)<1$$
 for some $j$. Let $I_1=[x_{j-1},x_j]$. Simiarly, since $\int^{x_j}_{x\_{j-1}}f=0$,
 there exists a partition $Q=\\{y_0,...,y_q\\}$ of $I_1$ such that
 
-$$U(Q,f)<\frac{b-a}{2}\text{.}$$
+$$U(Q,f)<\frac{x_j-x_{j-1}}{2}\text{.}$$
 
 Hence
 
