@@ -9,7 +9,7 @@ tags: [documentation,real analysis]
 **DEFINITION**\
 Suppose $X$ is a metric space, $E\subset X$, $f$ maps $E$ into $\mathbb{R}^1$,
 and $p$ is a limit point of $E$.\
-Define a set $L$ of extended real numbers as follows: If $\{p_n\}$ is a sequence
+Define a set $L$ of extended real numbers as follows: If $\\{p_n\\}$ is a sequence
 in $E$ converging to $p$ with $p_n\not=p$, and if $f(p_{n_k})\rightarrow l$
 for some subsequence $\{p_{n_k}\}$, then $l\in L$.\
 Put
@@ -76,3 +76,14 @@ also, there exists $\xi\in E$ with $0<d(\xi,p)<\delta'$ such that
 $$\tag{5}f(\xi)>y\mbox{.}$$
 
 (4) and (5) contradict (1).
+
+**THEOREM 4**\
+If $\lim\limits_{x\rightarrow p}f(x)=l$, then
+
+$$\tag{6}\limsup f(x)=\liminf f(x)=l$$
+
+as $x\rightarrow p$.
+
+**PROOF**\
+Let $p_n\rightarrow p$, $p_n\not=p$. Then $f(p_n)\rightarrow l$. Since $\\{p_n\\}$ is arbitrary,
+(6) follows.
